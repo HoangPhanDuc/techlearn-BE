@@ -34,4 +34,8 @@ public class ChapterEntity extends BaseEntity {
 
     @Column(name = "is_deleted")
     private Boolean isDeleted;
+
+    @ManyToMany(mappedBy = "chapters")
+    @JsonIgnore
+    private List<Mentor> mentors;
 }

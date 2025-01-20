@@ -57,12 +57,7 @@ public class TeacherCalendarRequestDTO2 {
     @JsonProperty("Status")
     private CalendarStatus status;
 
-    @JsonProperty("CourseId")
-    private String courseId;
-
-    @JsonProperty("ChapterId")
-    private String chapterId;
-
     @JsonProperty("UserId")
     private String userId;
+
 }
